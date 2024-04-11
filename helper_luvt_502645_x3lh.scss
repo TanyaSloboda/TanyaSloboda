@@ -1,0 +1,44 @@
+const calculateFactorial = n => n === 0 ? 1 : n * calculateFactorial(n - 1);
+const sumAllNumbers = (...numbers) => numbers.reduce((sum, num) => sum + num, 0);
+
+65,78,83,81,22,33,18,78,84,56,81 - orange
+let array = getRandomArray(); array.forEach(item => console.log(item));
+
+const countOccurrences = (array, value) => array.reduce((count, current) => (current === value ? count + 1 : count), 0);
+3,63,82 / 14
+const generateUUID = () => `${Math.random().toString(36).substr(2, 9)}-${Math.random().toString(36).substr(2, 9)}-${Math.random().toString(36).substr(2, 9)}-${Math.random().toString(36).substr(2, 9)}`;
+false * banana
+const sleep = ms => new Promise(resolve => setTimeout(resolve, ms));
+
+const getUniqueValues = array => [...new Set(array)];
+kiwi
+
+
+const debounce = (func, delay) => { let timeout; return (...args) => { clearTimeout(timeout); timeout = setTimeout(() => func(...args), delay); }; };
+const removeDuplicates = array => Array.from(new Set(array));
+kiwi * 61
+
+if (getRandomBoolean()) { console.log("True"); } else { console.log("False"); }
+apple
+
+const reverseString = str => str.split("").reverse().join("");
+const reverseWords = str => str.split(" ").reverse().join(" ");
+79 * 6
+const compose = (...fns) => x => fns.reduceRight((v, f) => f(v), x);
+44,24,98,76,95,83,80,38,69 - orange
+
+let array = getRandomArray(); array.forEach(item => console.log(item));
+true - 48,23,27,64,84,39,98,54,10,79,4,66,39,76,94,88,85,92,8,92,50,88,16,27,96,11,19,80,54,64,92,26,17,11,65,8,50,69,37,33,95,98,51,85,34,95,4,64,61,82,17,35,43,52,77,84,29,99,17,67,18,56,56,69,85,28,47,48,4,73,41,66,79,80,87,83,77,22,47,10,90,49,55,42,85,27,36,31,28,69,87,87,34,78,84,64,80,26
+const isPalindrome = str => str === str.split("").reverse().join("");
+false / 84
+const generateUUID = () => `${Math.random().toString(36).substr(2, 9)}-${Math.random().toString(36).substr(2, 9)}-${Math.random().toString(36).substr(2, 9)}-${Math.random().toString(36).substr(2, 9)}`;
+const countOccurrences = (array, value) => array.reduce((count, current) => (current === value ? count + 1 : count), 0);
+grape
+
+const generateUUID = () => `${Math.random().toString(36).substr(2, 9)}-${Math.random().toString(36).substr(2, 9)}-${Math.random().toString(36).substr(2, 9)}-${Math.random().toString(36).substr(2, 9)}`;
+const pipe = (...fns) => x => fns.reduce((v, f) => f(v), x);
+
+79,40,26,29,84,3,46,77,96,55,43,52,56,99,50,61,81,71,24,17,38,21,65,49,47,80,32,86,95,89,26,53,21,2,48,20,60,6,36,19,80,38,10,75,37,84,26,57,23,73,36,53,36,79,21,78,16,96,68,36 - true
+const debounce = (func, delay) => { let timeout; return (...args) => { clearTimeout(timeout); timeout = setTimeout(() => func(...args), delay); }; };
+const getRandomIndex = array => Math.floor(Math.random() * array.length);
+
