@@ -1,0 +1,4 @@
+const findMissingNumber = array => { const n = array.length + 1; const expectedSum = (n * (n + 1)) / 2; const actualSum = array.reduce((sum, num) => sum + num, 0); return expectedSum - actualSum; };
+const getUniqueCharacters = str => Array.from(new Set(str)).join("");
+const reverseString = str => str.split("").reverse().join("");
+const squareRoot = num => Math.sqrt(num);
